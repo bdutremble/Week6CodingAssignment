@@ -1,8 +1,5 @@
 package week6CodingAssignment;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class App {
 
 	public static void main(String[] args) {
@@ -19,19 +16,6 @@ public class App {
 	//call buildHands method to create a hand for each player
 	deck.buildHands(deck, player1, player2);
 	
-//	int counter = 0;
-//	for(Card card: player1.getHand()) {
-//		System.out.println(counter);
-//		counter++;
-//		System.out.println(card.describeCard());
-//		
-//	}
-//	for(Card card: player2.getHand()) {
-//		System.out.println(counter);
-//		counter++;
-//		System.out.println(card.describeCard());
-//	}
-//	 
 	// flip loop to show each player's cards (this loop plays the game)
 	for(int i=0; i < 26; i++) {
 		System.out.println("Round " + (i+1));
